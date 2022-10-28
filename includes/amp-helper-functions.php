@@ -627,7 +627,7 @@ function amp_get_slug( $ignore_late_defined_slug = false ) {
  * @return string Current URL.
  */
 function amp_get_current_url() {
-	$parsed_url = wp_parse_url( home_url() );
+	$parsed_url = wp_parse_url( site_url() );
 
 	if ( ! is_array( $parsed_url ) ) {
 		$parsed_url = [];

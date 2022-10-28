@@ -627,7 +627,7 @@ function amp_get_slug( $ignore_late_defined_slug = false ) {
  * @return string Current URL.
  */
 function amp_get_current_url() {
-	$parsed_url = wp_parse_url( site_url() );
+	$parsed_url = wp_parse_url( home_url() );
 
 	if ( ! is_array( $parsed_url ) ) {
 		$parsed_url = [];
@@ -653,7 +653,7 @@ function amp_get_current_url() {
 	if ( isset( $parsed_url['port'] ) ) {
 		$current_url .= ':' . $parsed_url['port'];
 	}
-	$current_url .= '/';
+	$current_url .= '/blog/';
 
 	if ( isset( $_SERVER['REQUEST_URI'] ) ) {
 		// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized

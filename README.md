@@ -4,6 +4,8 @@
 
 An easier path to great Page Experience for everyone. Powered by AMP.
 
+To build: `composer install && npm install && npm run build:prod`
+
 **Contributors:** [google](https://profiles.wordpress.org/google), [xwp](https://profiles.wordpress.org/xwp), [rtcamp](https://profiles.wordpress.org/rtcamp), [automattic](https://profiles.wordpress.org/automattic), [westonruter](https://profiles.wordpress.org/westonruter), [albertomedina](https://profiles.wordpress.org/albertomedina), [schlessera](https://profiles.wordpress.org/schlessera), [delawski](https://profiles.wordpress.org/delawski/), [swissspidy](https://profiles.wordpress.org/swissspidy), [pierlo](https://profiles.wordpress.org/pierlo), [joshuawold](https://profiles.wordpress.org/joshuawold)  
 **Tags:** [page experience](https://wordpress.org/plugins/tags/page-experience), [performance](https://wordpress.org/plugins/tags/performance), [amp](https://wordpress.org/plugins/tags/amp), [mobile](https://wordpress.org/plugins/tags/mobile), [optimization](https://wordpress.org/plugins/tags/optimization), [accelerated mobile pages](https://wordpress.org/plugins/tags/accelerated-mobile-pages)  
 **Requires at least:** 4.9  
